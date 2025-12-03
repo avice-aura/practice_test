@@ -1,4 +1,4 @@
-def bubble_sort(arr):
+def bubble_sort(arr): #this is for test
     n = len(arr)
     for i in range(n):
         for j in range(0, n-i-1):
@@ -24,3 +24,4 @@ def insertion_sort(arr):
             j -= 1
         arr[j+1] = key
     return arr
+
